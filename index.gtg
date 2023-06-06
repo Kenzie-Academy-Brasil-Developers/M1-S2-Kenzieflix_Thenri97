@@ -1,0 +1,44 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kenzieflix</title>
+
+</head>
+<header>
+    <figure>
+        <img src="./img/logo.png" alt="">
+    </figure>
+</header>
+<main>
+    <h1>Quem está assistindo?</h1>
+    <section><ul>
+        <figure class="usuarios">
+            <img src="./img/panda.png" alt="">
+            <figcaption class="usuarios">Aline</figcaption>
+        </figure>
+        <figure class="usuarios">
+            <img src="./img/pink.png" alt="">
+            <figcaption>Pedrinho</figcaption>
+        </figure>
+        <figure class="usuarios">
+            <img src="./img/robot.png" alt="">
+            <figcaption>júlia</figcaption>
+        </figure>
+        <figure class="usuarios">
+            <img src="./img/plus.png" alt="">
+            <figcaption>Adicionar perfil</figcaption>
+        </figure>
+    </ul>
+       
+    </section>
+    <button type="submit">Gerenciar Perfis</button>
+</main>
+
+<body>
+
+</body>
+
+</html>

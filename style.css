@@ -1,0 +1,17 @@
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+
+        }
+        h1{
+             color: white;
+
+        }
+.usuarios{
+    color:grey
+}
+
+button{
+    color: white;
+    background-color: black;
+}
