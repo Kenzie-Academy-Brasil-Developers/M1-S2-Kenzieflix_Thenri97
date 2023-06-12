@@ -1,53 +1,102 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;   
-     
-
+    background-color: black;
+    
 }
-header{
+
+header {
     text-align: center;
 }
-h1{
-     color: white;
-     text-align: center;
 
-}
-.usuarios{
-color:grey;
-
-
+h1 {
+    color: white;
+    text-align: center;
 
 }
 
-button{
+section {
+    width: 100%vw;
+    height: 100%vh;
+    margin-bottom: 50px;
+
+}
+
+.usuarios {
+    color: grey;
+
+
+
+}
+
+button {
     color: white;
     background-color: black;
     text-align: center;
     height: 32px;
     width: 172px;
-    border: 2px solid white;    
-}
-#botao{
-    text-align: center;
-   
+    border: 2px solid white;
+    border-radius: 10px;
+
+
 }
 
-section{
-    width: 100%vw;
-    height: 100%vh;
-    margin-bottom: 50px;
-    
+#botao {
+    text-align: center;
+
+
+
 }
-.usuarios img{
-    width: 20%;
-    height: 20%;
-    border-radius: 10px;
-    
-}
-.container{
+
+
+
+.container {
     width: 1000px;
     list-style: none;
+    display: flex;
+    text-align: center;
+    margin-block: 100px;
+    margin-left: 11%;
+
 }
-.container p{
+
+.usuarios img {
+    width: 80%;
+    border-radius: 10px;
+
+
+}
+
+
+.imagens-usuarios {
+    border: 1px solid black;
+}
+
+.imagens-usuarios:hover {
+    border: 1px solid white;
+
+}
+
+
+
+#div-aline:hover #aline{
     color: white;
+   } 
+   
+   #div-pedrinho:hover #pedrinho{
+    color: white;
+   } 
+   
+   #div-julia:hover #julia{
+    color: white;
+   } 
+
+   #div-plus:hover #plus{
+    color: white;
+   } 
+
+button:hover {
+    color: black;
+    background-color: white;
+   
+    
 }
